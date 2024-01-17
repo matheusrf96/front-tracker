@@ -1,6 +1,8 @@
 
 import { Link } from "react-router-dom"
 
+import TrackerInput from '../../components/trackerInput'
+
 const Landing = () => {
     return (
         <>
@@ -15,6 +17,8 @@ const Landing = () => {
             <div>
                 <Link to="/search">Ir para a tela de pesquisa</Link>
             </div>
+
+            <TrackerInput page="landing" apiKey="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" />
         </>
     )
 }
