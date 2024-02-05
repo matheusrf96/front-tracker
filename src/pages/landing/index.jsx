@@ -18,7 +18,7 @@ const Landing = () => {
                 <Link to="/search">Ir para a tela de pesquisa</Link>
             </div>
 
-            <Tracker page="landing" apiKey="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" />
+            <Tracker page="landing" apiKey={ process.env.REACT_APP_TRACKER_KEY } />
         </>
     )
 }

@@ -18,7 +18,7 @@ const Search = () => {
                 <Link to="/landing">Voltar para a landing page</Link>
             </div>
 
-            <Tracker page="search" apiKey="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" />
+            <Tracker page="search" apiKey={ process.env.REACT_APP_TRACKER_KEY } />
         </>
     )
 }
